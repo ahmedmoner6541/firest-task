@@ -25,6 +25,8 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(new Intent(StartActivity.this,AddActivty.class));
             }
         });
+
+
         btn_view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -92,7 +92,9 @@ public class AddActivty extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Create a new user with a first and last name
+                Toast.makeText(AddActivty.this, "جاري رفع المنتج", Toast.LENGTH_SHORT).show();
                 StoreProductInformation();
+
 
 
             }
